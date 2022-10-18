@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pathdep"
+version = "0.1.0"
+description = ""
+authors = []
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.10"
+subproj = { path = "subprojnew" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
